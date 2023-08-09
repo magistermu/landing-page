@@ -16,6 +16,7 @@ ul {
     gap: 2rem;
     justify-content: flex-end;
     align-items: center;
+    font-family: var(--font-family);
 }
 
 .push-left {
@@ -41,10 +42,11 @@ header {
     color: var(--main-color);
     font-family: var(--font-family);
     font-size: 24px;
+    font-weight: bold;
 }
 
 .nav-item {
     color: var(--secondary);
-    font-family: var(--font-family);
     font-size: 18px;
+    font-weight: 200;
 }
