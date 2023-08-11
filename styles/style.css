@@ -26,10 +26,6 @@ header {
     display: flex;
 }
 
-.row {
-    flex-direction: row;
-}
-
 .nav-items {
     gap: 2rem;
     justify-content: flex-end;
@@ -95,7 +91,7 @@ a {
     text-align: center; 
 }
 
-.hero, .features {
+.hero, .features, .testimonial {
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -138,4 +134,23 @@ a {
 .card p {
     line-height: 1.5rem;
     padding-top: 5px;
+}
+
+.testimonial {
+    background-color: var(--secondary);
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--dark-color);
+    line-height: 2.8rem;
+}
+
+.author {
+    text-align: end;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 24px;
 }
