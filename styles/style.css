@@ -91,18 +91,24 @@ a {
     text-align: center; 
 }
 
-.hero, .features, .testimonial {
+section {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 .hero button {
     align-self: self-start;
     border: none;
-    padding: 1rem 2rem;
     color: var(--main-color);
     background-color: var(--accent);
-    border-radius: 8px;
 }
 
 .hero .left-column {
@@ -153,4 +159,32 @@ a {
     font-weight: 600;
     font-size: 24px;
     padding-top: 24px;
+}
+
+
+.cta .container {
+    background-color: var(--accent);
+    border-radius: 8px;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.cta h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--main-color);
+    line-height: 2rem;
+}
+
+.cta p {
+    font-size: 18px;
+    color: var(--secondary);
+}
+
+.cta button { 
+    color: var(--main-color);
+    background-color: transparent;
+    border-color: var(--main-color);
+    border-style: solid;
 }
