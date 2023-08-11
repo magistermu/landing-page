@@ -188,3 +188,15 @@ button {
     border-color: var(--main-color);
     border-style: solid;
 }
+
+footer {
+    background-color: var(--dark-color);
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 18px;
+    color: var(--secondary);
+}
