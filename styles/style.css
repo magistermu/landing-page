@@ -4,6 +4,7 @@
     --dark-color: #1f2937;
     --main-color: #f9faf8;
     --secondary: #e5e7eb;
+    --secondary-dark: #1f2937;
     --accent: #3882f6;
     --font-family: 'Roboto', sans-serif;
 }
@@ -16,8 +17,17 @@ ul {
     list-style-type: none;
 }
 
+header {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .flex {
     display: flex;
+}
+
+.row {
+    flex-direction: row;
 }
 
 .nav-items {
@@ -35,10 +45,16 @@ a {
 }
 
 .container {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 1200px;
+}
+
+.container-short {
+    width: 960px;
+}
+
+.container, .container-short {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .dark-background {
@@ -72,9 +88,16 @@ a {
     color: var(--main-color);
 }
 
-.hero {
-    height: 70vh;
-    align-items: center;
+.secondary-heading {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--secondary-dark);
+    text-align: center; 
+}
+
+.hero, .features {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .hero button {
@@ -88,4 +111,31 @@ a {
 
 .hero .left-column {
     gap: 20px;
+}
+
+.cards {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 20px;
+}
+
+.card-image {
+    display: inline-block;
+    min-height: 200px;
+    min-width: 200px;
+    border-color: var(--accent);
+    border-radius: 8px;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.card {
+    text-align: center;
+    font-size: 18px;
+    color: var(--dark-color);
+}
+
+.card p {
+    line-height: 1.5rem;
+    padding-top: 5px;
 }
